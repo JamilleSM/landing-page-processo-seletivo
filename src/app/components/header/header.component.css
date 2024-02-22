@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+}
+
+a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.logo {
+  margin-left: 8.5rem;
+  width: 200px;
+}
+
+.nav-header,
+.redes {
+  margin-left: 2.1rem;
+}
+
+.nav-header {
+  margin-top: 1.8rem;
+}
+
+.redes a {
+  margin-right: 0.4rem;
+}
+
+.redes {
+  margin-right: 7.8rem;
+}

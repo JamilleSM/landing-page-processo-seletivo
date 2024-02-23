@@ -10,14 +10,14 @@
   align-items: center;
   justify-content: center;
   background-color: #181818;
-  width: 500px;
-  height: 376px;
-  border-radius: 13px;
+  width: 31rem;
+  height: 23.5rem;
+  border-radius: 0.8rem;
   margin-bottom: 7.3rem;
 }
 
 .container-text {
-  width: 500px;
+  width: 31rem;
   margin-bottom: 7.3rem;
 }
 

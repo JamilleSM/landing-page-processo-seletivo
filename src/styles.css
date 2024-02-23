@@ -12,3 +12,17 @@ body {
 a {
   text-decoration: none;
 }
+
+button {
+  display: block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: "Helvetica";
+  font-weight: 400;
+}

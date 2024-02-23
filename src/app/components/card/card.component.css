@@ -1,0 +1,35 @@
+.container {
+  background-color: #181818;
+  width: 240px;
+  padding: 24px;
+  border-radius: 13px;
+}
+
+img {
+  margin-bottom: 1.125rem;
+}
+
+p {
+  margin-bottom: 0.4rem;
+}
+
+.title {
+  color: #ffb868;
+  font-size: 1.25rem;
+}
+
+span {
+  margin-bottom: 0.9rem;
+}
+
+.text {
+  color: #fff;
+  font-size: 0.75rem;
+  bottom: 5px;
+}
+
+.link {
+  color: #ffb868;
+  font-size: 0.625rem;
+  margin-top: 15px;
+}

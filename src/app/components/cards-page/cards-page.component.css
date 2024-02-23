@@ -1,0 +1,66 @@
+section {
+  display: flex;
+  margin-top: 7.3rem;
+}
+
+.background {
+  background-image: url("src/assets/backgroundspace.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-left: 6.8rem;
+}
+
+.container-card {
+  margin-right: 2rem;
+  margin-bottom: 9rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1.75rem;
+  margin-top: 1.9rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  width: 100%;
+  width: 35.8rem;
+  margin-top: 5.125rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #ef3dff;
+  margin-top: 0.6rem;
+  width: 100%;
+  width: 30rem;
+}
+
+button {
+  background-color: #ef3dff;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    margin-top: 5rem;
+    display: block;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+}

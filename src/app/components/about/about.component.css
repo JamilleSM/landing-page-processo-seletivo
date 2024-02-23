@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  gap: 4.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181818;
+  width: 500px;
+  height: 376px;
+  border-radius: 13px;
+  margin-bottom: 7.3rem;
+}
+
+.container-text {
+  width: 500px;
+  margin-bottom: 7.3rem;
+}
+
+img {
+  align-self: center;
+}
+
+button {
+  background-color: #3d5bff;
+  margin-top: 1.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+span {
+  font-size: 1.25rem;
+  color: #3d5bff;
+}
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+}

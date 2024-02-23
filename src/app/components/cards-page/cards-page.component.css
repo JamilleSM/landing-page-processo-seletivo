@@ -1,12 +1,16 @@
 section {
-  display: flex;
   margin-top: 7.3rem;
+}
+
+.container-geral {
+  display: flex;
 }
 
 .background {
   background-image: url("src/assets/backgroundspace.png");
   background-size: cover;
   background-position: center;
+  background-color: rgba(30, 30, 30, 0.9);
 }
 
 .container {
@@ -50,7 +54,7 @@ button {
     margin-top: 5rem;
     display: block;
   }
-  .cards {
+  .container-geral {
     flex-wrap: wrap;
   }
   .container {

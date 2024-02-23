@@ -4,6 +4,8 @@ section {
 
 .container-geral {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .background {
@@ -33,7 +35,6 @@ h1 {
   color: #fff;
   width: 100%;
   width: 35.8rem;
-  margin-top: 5.125rem;
 }
 
 p {

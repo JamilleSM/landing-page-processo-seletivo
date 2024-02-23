@@ -1,0 +1,45 @@
+main {
+  background-image: url("src/assets/backgroundspace.png");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.1rem;
+}
+
+input::placeholder {
+  color: #696969;
+}
+
+button {
+  background-color: #3d5bff;
+  margin-top: 36px;
+  margin-bottom: 113px;
+}
+
+img {
+  width: 300px;
+}
+
+.container-input {
+  display: flex;
+  gap: 24px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 160px;
+}
+
+p {
+  color: #3d5bff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 113px;
+}

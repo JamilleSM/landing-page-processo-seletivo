@@ -3,7 +3,9 @@ footer {
   justify-content: space-between;
   font-size: 0.9rem;
   font-weight: bold;
-  margin: 3.75rem 9.4375rem 3.125rem 9.4375rem;
+  margin: 3.75rem 9.4375rem 0 9.4375rem;
+  border-top: solid 1px #696969;
+  padding: 60px;
 }
 
 a,

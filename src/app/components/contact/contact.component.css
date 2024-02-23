@@ -12,6 +12,10 @@ section {
   gap: 7.1rem;
 }
 
+input {
+  width: 298px;
+}
+
 input::placeholder {
   color: #696969;
 }

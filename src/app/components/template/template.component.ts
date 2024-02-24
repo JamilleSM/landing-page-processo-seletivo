@@ -10,7 +10,7 @@ export class TemplateComponent implements OnInit {
     { src: 'assets/template-dentista.png', alt: '', name: 'Dentistas' },
     { src: 'assets/template-advogado.png', alt: '', name: 'Advogados' },
     { src: 'assets/template-advogado.png', alt: '', name: 'Advogados' },
-    { src: 'assets/template-medico.png', alt: '', name: 'Clínicas Médicas' },
+    { src: 'assets/template-medico.png', alt: '', name: 'Medicos' },
   ];
   isExpanded: number | null = null;
 

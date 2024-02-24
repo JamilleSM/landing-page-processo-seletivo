@@ -14,6 +14,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { TagComponent } from './components/tag/tag.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { TemplateComponent } from './components/template/template.component';
+import { SessionNetworkComponent } from './components/session-network/session-network.component';
+import { CardNetworkComponent } from './components/card-network/card-network.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { TemplateComponent } from './components/template/template.component';
     ContactComponent,
     TagComponent,
     NavigationComponent,
-    TemplateComponent
+    TemplateComponent,
+    SessionNetworkComponent,
+    CardNetworkComponent
   ],
   imports: [
     BrowserModule,

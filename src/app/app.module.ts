@@ -16,6 +16,9 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { TemplateComponent } from './components/template/template.component';
 import { SessionNetworkComponent } from './components/session-network/session-network.component';
 import { CardNetworkComponent } from './components/card-network/card-network.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { SessionSliderComponent } from './components/session-slider/session-slider.component';
+import { SlidetwoComponent } from './components/slidetwo/slidetwo.component';
 
 @NgModule({
   declarations: [
@@ -32,13 +35,12 @@ import { CardNetworkComponent } from './components/card-network/card-network.com
     NavigationComponent,
     TemplateComponent,
     SessionNetworkComponent,
-    CardNetworkComponent
+    CardNetworkComponent,
+    SessionSliderComponent,
+    SlidetwoComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NoopAnimationsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

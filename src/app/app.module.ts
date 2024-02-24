@@ -12,6 +12,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TagComponent } from './components/tag/tag.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { TemplateComponent } from './components/template/template.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { TagComponent } from './components/tag/tag.component';
     SliderComponent,
     FooterComponent,
     ContactComponent,
-    TagComponent
+    TagComponent,
+    NavigationComponent,
+    TemplateComponent
   ],
   imports: [
     BrowserModule,

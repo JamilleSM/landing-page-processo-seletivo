@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  gap: 18px;
+}
+
+.photo-container {
+  display: flex;
+  gap: 19px;
+  width: 151px;
+  height: 466px;
+  transition: width 0.3s, height 0.3s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.photo-container.expanded {
+  width: 346px;
+}
+
+.photo-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.photo-name {
+  position: absolute;
+  transform-origin: left top;
+  font-size: 40px;
+  font-weight: bold;
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+.photo-name.vertical {
+  transform: rotate(0deg);
+  margin-bottom: 40px;
+  margin-left: 12px;
+}

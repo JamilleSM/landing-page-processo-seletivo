@@ -30,3 +30,13 @@ img {
   width: 21.6rem;
   height: 29.1rem;
 }
+
+@media screen and (max-width: 1000px) {
+  section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+}

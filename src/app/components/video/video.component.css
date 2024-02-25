@@ -24,3 +24,9 @@
 button {
   background-color: transparent;
 }
+
+@media screen and (max-width: 1000px) {
+  .container-video {
+    width: 60rem;
+  }
+}

@@ -35,3 +35,9 @@
 button {
   background-color: transparent;
 }
+
+@media screen and (max-width: 1000px) {
+  .carousel {
+    width: 60rem;
+  }
+}

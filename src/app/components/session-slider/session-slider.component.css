@@ -15,7 +15,20 @@ h3 {
   font-size: 3.75rem;
   font-weight: bold;
   margin-top: 3.75rem;
-  margin-bottom: 3.75rem;
+  margin-bottom: 7rem;
+  position: relative;
+}
+
+h3::before {
+  content: "";
+  display: inline-block;
+  width: 19.5rem;
+  height: 0.18rem;
+  background-color: #3d5bff;
+  position: absolute;
+  bottom: -2.25rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 h4 {
@@ -30,4 +43,11 @@ h4 {
 
 .text2 {
   color: #ef3dff;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

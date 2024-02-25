@@ -1,5 +1,8 @@
 .container-video {
-  width: 106.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80rem;
   overflow-x: auto;
   overflow: hidden;
   display: flex;
@@ -14,39 +17,10 @@
 .container-button {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 1.6rem;
 }
 
 button {
   background-color: transparent;
-}
-
-h4 {
-  display: flex;
-  justify-content: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 7.5rem;
-}
-
-.container-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 1.125rem;
-  margin-bottom: 2.5rem;
-}
-
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3rem;
-  width: 37.5rem;
-}
-
-span {
-  font-size: 1.3rem;
-  font-weight: 500;
 }

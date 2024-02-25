@@ -19,6 +19,7 @@ import { CardNetworkComponent } from './components/card-network/card-network.com
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SessionSliderComponent } from './components/session-slider/session-slider.component';
 import { SlidetwoComponent } from './components/slidetwo/slidetwo.component';
+import { VideoComponent } from './components/video/video.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { SlidetwoComponent } from './components/slidetwo/slidetwo.component';
     CardNetworkComponent,
     SessionSliderComponent,
     SlidetwoComponent,
+    VideoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NoopAnimationsModule],
   providers: [],

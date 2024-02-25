@@ -8,6 +8,8 @@
 }
 
 body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #181818;
 }
 
@@ -50,5 +52,20 @@ textarea:hover {
   border-color: none;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 0.25rem;
+  background-color: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: #8b8b8b;
+}

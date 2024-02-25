@@ -12,6 +12,7 @@ section {
   background-size: cover;
   background-position: center;
   background-color: rgba(30, 30, 30, 0.9);
+  position: relative;
 }
 
 .container {
@@ -21,6 +22,7 @@ section {
 .container-card {
   margin-right: 2rem;
   margin-bottom: 9rem;
+  z-index: 100;
 }
 
 .cards {
@@ -57,6 +59,13 @@ p {
 button {
   background-color: #ef3dff;
   margin-top: 2rem;
+}
+
+.blur {
+  position: absolute;
+  top: -200px;
+  right: -400px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1000px) {

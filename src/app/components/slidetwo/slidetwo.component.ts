@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { animateScroll } from 'src/app/core/tools/animate-scroll';
 
 @Component({
   selector: 'app-slidetwo',
@@ -45,11 +46,11 @@ export class SlidetwoComponent implements OnInit {
   constructor() {}
 
   prevSlide(): void {
-    this.imagesContainer.nativeElement.scrollLeft -= 100;
+    animateScroll(this.imagesContainer, -200);
   }
 
   nextSlide() {
-    this.imagesContainer.nativeElement.scrollLeft += 100;
+    animateScroll(this.imagesContainer, 200);
   }
 
   ngOnInit(): void {}

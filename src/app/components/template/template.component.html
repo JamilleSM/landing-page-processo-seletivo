@@ -1,15 +1,11 @@
 <div class="container">
-  <div
-    *ngFor="let photo of fotos; let i = index"
-    class="photo-container"
-    [ngClass]="{ expanded: isExpanded === i }"
-    (click)="toggleExpanded(i)"
-  >
+  <div *ngFor="let photo of photos; let i = index" class="photo-container">
     <div class="photo-wrapper">
       <img src="{{ photo.src }}" alt="{{ photo.alt }}" />
-      <span class="photo-name" [ngClass]="{ vertical: isExpanded === i }">{{
-        photo.name
-      }}</span>
+      <span class="photo-name vertical">{{ photo.name }}</span>
+      <span class="photo-name horizontal">
+        {{ photo.name }}
+      </span>
     </div>
   </div>
 </div>

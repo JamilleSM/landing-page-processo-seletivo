@@ -8,6 +8,7 @@
 .container-image {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 h4 {
@@ -16,6 +17,7 @@ h4 {
   max-width: 100%;
   width: 37.5rem;
   margin-top: -16.25rem;
+  margin-bottom: 0.8rem;
 }
 
 p {
@@ -45,6 +47,17 @@ p {
 
 .detalhe-img2 {
   margin-top: -10rem;
+}
+
+app-card-network {
+  z-index: 20;
+}
+
+.blur {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 @media screen and (max-width: 768px) {

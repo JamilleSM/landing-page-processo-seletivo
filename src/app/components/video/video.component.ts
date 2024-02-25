@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { animateScroll } from 'src/app/core/tools/animate-scroll';
 
 @Component({
   selector: 'app-video',
@@ -21,12 +22,12 @@ export class VideoComponent implements OnInit {
 
   constructor() {}
 
-  prevSlide(): void {
-    this.video.nativeElement.scrollLeft -= 100;
+  prevVideo(): void {
+    animateScroll(this.video, -200);
   }
 
-  nextSlide() {
-    this.video.nativeElement.scrollLeft += 100;
+  nextVideo() {
+    animateScroll(this.video, 200);
   }
 
   ngOnInit(): void {}

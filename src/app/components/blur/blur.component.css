@@ -1,0 +1,14 @@
+.blur {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  filter: blur(75px);
+}
+
+.blur.blue {
+  background: radial-gradient(circle at 50% 50%, #3d5bff, rgba(76, 0, 255, 0));
+}
+
+.blur.pink {
+  background: radial-gradient(circle at 50% 50%, #ef3dff, rgba(76, 0, 255, 0));
+}

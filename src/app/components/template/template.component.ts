@@ -6,21 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./template.component.css'],
 })
 export class TemplateComponent implements OnInit {
-  fotos = [
+  photos = [
     { src: 'assets/template-dentista.png', alt: '', name: 'Dentistas' },
     { src: 'assets/template-advogado.png', alt: '', name: 'Advogados' },
     { src: 'assets/template-advogado.png', alt: '', name: 'Advogados' },
     { src: 'assets/template-medico.png', alt: '', name: 'Medicos' },
   ];
-  isExpanded: number | null = null;
-
-  toggleExpanded(index: number) {
-    if (this.isExpanded === index) {
-      this.isExpanded = null;
-    } else {
-      this.isExpanded = index;
-    }
-  }
 
   constructor() {}
 

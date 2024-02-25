@@ -23,6 +23,7 @@ import { SlidetwoComponent } from './components/slidetwo/slidetwo.component';
 import { VideoComponent } from './components/video/video.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SessionVideoComponent } from './components/session-video/session-video.component';
+import { BlurComponent } from './components/blur/blur.component';
 
 const routes: Routes = [{ path: '', component: HomeComponent }];
 
@@ -47,6 +48,7 @@ const routes: Routes = [{ path: '', component: HomeComponent }];
     VideoComponent,
     HomeComponent,
     SessionVideoComponent,
+    BlurComponent,
   ],
   imports: [
     BrowserModule,

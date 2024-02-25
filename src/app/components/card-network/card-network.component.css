@@ -7,23 +7,23 @@
 .container-image {
   display: flex;
   align-items: center;
-  height: 629px;
+  height: 39rem;
   padding: 0;
   left: 0;
 }
 
 .image-cel {
-  width: 297px;
-  height: 629px;
+  width: 18.5rem;
+  height: 39rem;
   z-index: 2;
 }
 
 .image1 {
-  width: 179px;
-  height: 315px;
+  width: 11rem;
+  height: 19.6;
 }
 
 .image2 {
-  width: 250px;
-  height: 383px;
+  width: 15.6rem;
+  height: 23.9rem;
 }

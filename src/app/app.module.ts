@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +21,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SessionSliderComponent } from './components/session-slider/session-slider.component';
 import { SlidetwoComponent } from './components/slidetwo/slidetwo.component';
 import { VideoComponent } from './components/video/video.component';
+import { HomeComponent } from './pages/home/home.component';
+
+const routes: Routes = [{ path: '', component: HomeComponent }];
 
 @NgModule({
   declarations: [
@@ -40,8 +44,15 @@ import { VideoComponent } from './components/video/video.component';
     SessionSliderComponent,
     SlidetwoComponent,
     VideoComponent,
+    HomeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NoopAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NoopAnimationsModule,
+    RouterModule.forRoot(routes),
+  ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent],
 })

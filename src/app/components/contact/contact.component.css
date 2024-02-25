@@ -13,7 +13,7 @@ section {
 }
 
 input {
-  width: 298px;
+  width: 18.6rem;
 }
 
 input::placeholder {
@@ -22,28 +22,28 @@ input::placeholder {
 
 button {
   background-color: #3d5bff;
-  margin-top: 36px;
-  margin-bottom: 113px;
+  margin-top: 2.25rem;
+  margin-bottom: 7rem;
 }
 
 img {
-  width: 400px;
+  width: 25rem;
 }
 
 .container-input {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-top: 160px;
+  margin-top: 10rem;
 }
 
 p {
   color: #3d5bff;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 113px;
+  margin-bottom: 7rem;
 }
